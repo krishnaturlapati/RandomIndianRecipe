@@ -6,8 +6,8 @@ app = FastAPI()
 
 @app.get("/", status_code=200)
 def get_movie_title():
-    """query database and return one movie title"""
-    return {'movie': 'test'}
+    """query database and return one recipe """
+    return {'reciepe': 'test'}
 
 
 @app.get("/health", status_code=200)
