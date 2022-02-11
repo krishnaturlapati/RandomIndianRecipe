@@ -1,8 +1,7 @@
-# Random Indian Recipe 🍛🇮🇳🍚🍲
+# Random Indian Recipe 🍛🍚🍲🥘
 Simple API to suggest one random Indian recipe
 
 Check it out here -> https://random-indian-receipe.herokuapp.com/
-
 
 
 ### Recipe Database 
@@ -51,6 +50,3 @@ region         : West
 {"name":"Mag Dhokli","ingredients":"Moong beans, jaggery, red chillies, oil, salt","diet":"vegetarian","prep_time":-1,"cook_time":-1,"flavor_profile":"spicy","course":"snack","state":"Gujarat","region":"West"}
 
 ```
-### Check out the API 
-
-TODO
