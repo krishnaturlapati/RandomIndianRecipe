@@ -18,6 +18,16 @@ df = pd.read_csv(r"path\to\indian_food.csv")
 df.to_sql('recipes', conn, if_exists='append', index=False)
 ```
 
+
+### Local Testing
+
+To start the app locally 
+
+```bash
+uvicorn app:app --reload
+```
+
+
 ### Request & Response
 
 ```bash
