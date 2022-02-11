@@ -1,6 +1,9 @@
 # Random Indian Recipe 🍛🇮🇳🍚🍲
 Simple API to suggest one random Indian recipe
 
+Check it out here -> https://random-indian-receipe.herokuapp.com/
+
+
 
 ### Recipe Database 
 
