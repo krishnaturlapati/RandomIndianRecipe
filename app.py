@@ -11,7 +11,7 @@ conn = sql.connect('indian_food.db', check_same_thread=False)
 @app.get("/", status_code=200)
 def get_recipe():
     """ query database and return one recipe """
-    sql = "select * from recipes where name like '%Mag Dhokli%' order by random() limit 1"
+    sql = "select * from recipes order by random() limit 1"
     return pd.read_sql(sql,conn).to_dict(orient='records')[0]
     
 
